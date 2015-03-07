@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'AkzidenzGroteskBQLightCondeRegular';
+    src: url('akzidenzgrotesk-lightcond.eot');
+    src: url('akzidenzgrotesk-lightcond.eot') format('embedded-opentype'),
+         url('akzidenzgrotesk-lightcond.woff') format('woff'),
+         url('akzidenzgrotesk-lightcond.ttf') format('truetype'),
+         url('akzidenzgrotesk-lightcond.svg#AkzidenzGroteskBQLightCondeRegular') format('svg');
+}
