@@ -6,6 +6,7 @@ if (e.keyCode == 27) {
 
 function ajustarContenedorCentral(){
 	h = $('#contenedor_central').height();
+	//h = $('#contenedor_central').outerHeight(true);
 	h_window = $(window).height();
 	if(h > h_window){
 		//top: 0%;

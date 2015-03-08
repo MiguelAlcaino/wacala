@@ -5,7 +5,7 @@
       <div onclick="abrirVideo(<?php echo $post->id?>, '<?php echo $post->titulo?>');ajustarTituloBarra();" class="encima_thumbnail"></div>
       <div class="titulo_post"></div>
       <span onclick="javascript:$('#mymodal .modal-body').load('<?php echo site_url('frontend/modalVideo/'.$post->id)?>',function(e){$('#mymodal').modal('show');});" class="titulo_texto"><div><?php echo $post->titulo?></div></span>
-      <a  href="javascript:$('#mymodal .modal-body').load('<?php echo site_url('frontend/modalVideo/'.$post->id)?>',function(e){$('#mymodal').modal('show');});"><img src="<?php echo base_url("uploads/".$post->ruta)?>"/></a>
+      <a  href="javascript:$('#mymodal .modal-body').load('<?php echo site_url('frontend/modalVideo/'.$post->id)?>',function(e){$('#mymodal').modal('show');});"><img src="<?php echo base_url("uploads/thumb_".$post->ruta)?>"/></a>
       
       <!--<span class="texto-nuevo">New!</span>-->
       </div>

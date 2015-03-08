@@ -14,7 +14,7 @@
       <div onclick="abrirVideo(<?php echo $post->id?>, '<?php echo $post->titulo?>');" class="encima_thumbnail" style="width: 120px;"></div>
       <div class="titulo_post" style="width: 120px;"></div>
       <span style="width: 120px;" onclick="javascript:$('#mymodal .modal-body').load('<?php echo site_url('frontend/modalVideo/'.$post->id)?>',function(e){$('#mymodal').modal('show');});" class="titulo_texto"><div><?php echo $post->titulo?></div></span>
-      <a  href="javascript:$('#mymodal .modal-body').load('<?php echo site_url('frontend/modalVideo/'.$post->id)?>',function(e){$('#mymodal').modal('show');});"><img src="<?php echo base_url("uploads/".$post->ruta)?>"/></a>
+      <a  href="javascript:$('#mymodal .modal-body').load('<?php echo site_url('frontend/modalVideo/'.$post->id)?>',function(e){$('#mymodal').modal('show');});"><img src="<?php echo base_url("uploads/thumb_".$post->ruta)?>"/></a>
       
       <!--<span class="texto-nuevo">New!</span>-->
       </div>

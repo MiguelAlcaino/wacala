@@ -49,9 +49,9 @@ $active_group = 'default';
 $active_record = TRUE;
 
 $db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'wacalada_sitio';
-$db['default']['password'] = '4z?yFOP)X}~1';
-$db['default']['database'] = 'wacalada_sitio';
+$db['default']['username'] = 'root';
+$db['default']['password'] = 'cacuca';
+$db['default']['database'] = 'malcaino_wacala';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
